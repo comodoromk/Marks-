@@ -1,0 +1,29 @@
+{
+  "appName": "Marks Finanças",
+  "appId": "com.marks.financas",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "targetSdkVersion": 34,
+  "minSdkVersion": 21,
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE"
+  ],
+  "features": {
+    "webView": true,
+    "nativeNavigation": false,
+    "splashScreen": true,
+    "autoBackup": true
+  },
+  "icon": {
+    "source": "resources/icon.png",
+    "backgroundColor": "#4F46E5"
+  },
+  "splashScreen": {
+    "backgroundColor": "#4F46E5",
+    "duration": 3000
+  }
+}
